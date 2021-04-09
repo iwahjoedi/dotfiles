@@ -1,0 +1,17 @@
+# Google Cloud Shell Dot Files
+# file: .bashrc
+# 
+# Modifed by iwahjoedi
+
+export TERM=xterm-256color
+
+FILE=/bin/zsh
+# Check whenever zsh exist or not
+if [ -f "$FILE" ]; then
+    echo "$FILE exists. Let's rock."
+    zsh
+else
+    echo "$FILE does not exist. Installing $FILE"
+    sudo apt-get -y install zsh
+    zsh
+fi
