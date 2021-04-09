@@ -3,8 +3,8 @@ My Terminal Dot Configuration
 
 ## List of configuration
 1. [Google Cloud Shell](https://github.com/iwahjoedi/dotfiles#1-google-cloud-shell)
-1.1 [How to install](https://github.com/iwahjoedi/dotfiles#11-google-cloud-shell)
-1.1 [How to remove](https://github.com/iwahjoedi/dotfiles#12-google-cloud-shell)
+   * [How to install](https://github.com/iwahjoedi/dotfiles#11-google-cloud-shell)
+   * [How to remove](https://github.com/iwahjoedi/dotfiles#12-google-cloud-shell)
 
 ### 1. Google Cloud Shell 
 I just use its terminal for coding and managing environment.
