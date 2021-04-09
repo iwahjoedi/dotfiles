@@ -2,12 +2,12 @@
 My Terminal Dot Configuration
 
 ## List of configuration
-1. Google Cloud Shell
+1. [Google Cloud Shell](https://github.com/iwahjoedi/dotfiles#google-cloud-shell)
 
-### Google Cloud Shell 
+### 1. Google Cloud Shell 
 I just use its terminal for coding and managing environment.
 
-#### How to install ?
+#### 1.1 How to install ?
 You just need to clone this repository and then run cloudshell/setup.sh
 
 ```bash
@@ -15,7 +15,7 @@ git clone https://github.com/iwahjoedi/dotfiles
 cd dotfiles/cloudshell
 sh setup.sh
 ```
-#### How to remove ?
+#### 1.2 How to remove ?
 Just run dotfiles/cloudshell/remove.sh
 
 ```bash
