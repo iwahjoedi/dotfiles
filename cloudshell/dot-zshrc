@@ -14,8 +14,8 @@ export PATH="$PATH:$NVIM_HOME/bin"
 
 # Setup Pyenv
 export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # Setup Android SDK
 # export BUILD_TOOLS="30.0.3"
