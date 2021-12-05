@@ -51,6 +51,9 @@ if [[ -z $precmd_functions[(r)_pyenv_virtualenv_hook] ]]; then
   precmd_functions=(_pyenv_virtualenv_hook $precmd_functions);
 fi
 
+# PYTHON
+alias python='/usr/bin/python3'
+
 # Setup Android SDK
 # export BUILD_TOOLS="30.0.3"
 # export ANDROID_AVD_HOME="$HOME/.android/avd"
