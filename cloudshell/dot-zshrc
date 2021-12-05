@@ -12,6 +12,11 @@ export TERM=xterm-256color
 export NVIM_HOME="$HOME/nvim-linux64"
 export PATH="$PATH:$NVIM_HOME/bin"
 
+# Setup Pyenv
+export PATH="$HOME/.pyenv/bin:$PATH"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
+
 # Setup Android SDK
 # export BUILD_TOOLS="30.0.3"
 # export ANDROID_AVD_HOME="$HOME/.android/avd"
